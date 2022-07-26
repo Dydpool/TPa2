@@ -1,4 +1,9 @@
 /* header */
-header{
-    background: black;
+.header{
+    background-color: black;
+}
+
+.cyclistes{
+    height: 16rem;
+    width: 31rem;
 }
