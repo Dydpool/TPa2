@@ -37,11 +37,30 @@ body {
   height: 18.75rem;
   width: 36.375em;
 }
-.city {
+.SanFrancisco {
   height: 9.688rem;
   width: 17.25rem;
 }
-
+.Rio {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Kenya {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Fujiyoshida {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Prague {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Londres {
+  height: 9.688rem;
+  width: 17.25rem;
+}
 .logotravel {
   height: 7rem;
   width: 7rem;
@@ -135,7 +154,6 @@ ul {
   color: #999999;
   text-transform: uppercase;
   padding: 0.5rem;
-  justify-self: center;
 }
 .description {
   font-size: 0.875rem;
