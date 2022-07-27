@@ -1,91 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@400;700&display=swap");
 /* header */
+body {
+  background: color #f0f0f0;
+}
 .header {
-    background-color: black;
-    color: white;
-    display: flex;
-
+  background-color: black;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.card2 {
+  height: 26.25rem;
+  width: 36.375rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 5px #9999991e;
+  margin: 1.5rem;
+  justify-content: space-between;
+}
+.card {
+  height: 26.25rem;
+  width: 17.25rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 5px #9999991e;
+  margin: 1.5rem;
+  justify-content: space-between;
 }
 
-.foto {
-    margin-left: 20rem;
-    height: 5rem;
-    width: 5rem;
+.cyclistes {
+  height: 18.75rem;
+  width: 36.375em;
+}
+.SanFrancisco {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Rio {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Kenya {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Fujiyoshida {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Prague {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.Londres {
+  height: 9.688rem;
+  width: 17.25rem;
+}
+.logotravel {
+  height: 7rem;
+  width: 7rem;
 }
 
-.boucle {
-    height: 17rem;
-    width: 32rem;
-    border: solid 1px black;
-    display: flex;
-    padding-top: 4rem;
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #313131;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin: 0rem;
+}
+ul {
+  list-style-type: none;
+}
+.naviguer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.naviguer-bloc {
+  height: 14.25rem;
+  width: 17.25rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
 }
 
-.Gboucle {
-    height: 9rem;
-    width: 16rem;
-    margin: 0 auto;
-    
+.propos {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
-
-.nav {
-    margin-top: 1rem;
-    margin-left: 30rem;
-    font-size: 1.2rem;
-    display: flex;
-    width: 30rem;
-    justify-content: space-between;
-    align-items: center;
+.services {
+  height: 14.25rem;
+  width: 17.25rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
 }
-
-.logo {
-    justify-content: start;
+.blog {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
-
-.connexion {
-    height: 1rem;
-    width: 1rem;
-    display: flex;
-
-
-}
-
-.caré {
-    margin-left: 0.7rem;
-    background-color: #FE6060;
-    height: 5rem;
-    width: 3rem;
-    padding-top: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.test {
-    border: gray solid 0.1px;
-    box-shadow: gray 1px;
-    width: 22%;
-}
-
-
-
-@media screen and (min-width: 600px) {
-    .kebumen {
-        background-color: #ffffff;
-        margin-left: 0.625rem;
-        margin-right: 0.625rem;
-        margin-top: 1rem;
-        width: 36.375rem;
-        height: 26.25rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-shadow: 5px 5px 5px #9999991e;
-    }
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
+.visite {
+  height: 14.25rem;
+  width: 17.25rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+  padding-bottom: 2rem;
 }
