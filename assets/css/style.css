@@ -1,33 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@400;700&display=swap");
 /* header */
-.header{
-    background-color: black;
+.header {
+  background-color: black;
 }
 
-.cyclistes{
-    height: 17rem;
-    width: 32rem;
+.cyclistes {
+  height: 17rem;
+  width: 32rem;
 }
-.SanFrancisco{
-    height: 9rem;
-    width: 16rem;
+.SanFrancisco {
+  height: 9rem;
+  width: 16rem;
 }
-.Rio{
-    height: 9rem;
-    width: 16rem;
+.Rio {
+  height: 9rem;
+  width: 16rem;
 }
-.Kenya{
-    height: 9rem;
-    width: 16rem;
+.Kenya {
+  height: 9rem;
+  width: 16rem;
 }
-.Fujiyoshida{
-    height: 9rem;
-    width: 16rem;
+.Fujiyoshida {
+  height: 9rem;
+  width: 16rem;
 }
-.Prague{
-    height: 9rem;
-    width: 16rem;
+.Prague {
+  height: 9rem;
+  width: 16rem;
 }
-.Londres{
-    height: 9rem;
-    width: 16rem;
+.Londres {
+  height: 9rem;
+  width: 16rem;
+}
+.logotravel {
+  height: 5rem;
+  width: 5rem;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #313131;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+ul {
+  list-style-type: none;
+}
+.naviguer {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.naviguer-bloc {
+  height: 14.25rem;
+  width: 17.25rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+}
+
+.propos {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.services {
+  height: 14.25rem;
+  width: 17.25rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+}
+.blog {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.visite {
+  height: 14.25rem;
+  width: 17.25rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
 }
