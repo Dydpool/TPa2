@@ -16,7 +16,7 @@ $arrayDestination = json_decode($json, true);
 
 <body>
 
-  <div class="header">
+  <!-- <div class="header">
     <div class="logo">
       <img class="foto" src="assets/img/logotravel.png" alt="logo">
     </div>
@@ -31,9 +31,8 @@ $arrayDestination = json_decode($json, true);
     <div class="caré">
       <img src="assets/img/pictoperso.svg" class="connexion" alt="connexion">
     </div>
+  </div> -->
 
-
-  </div>
   <div class="box">
     <?php
     foreach ($arrayDestination as $key => $value) {
