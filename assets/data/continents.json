@@ -1,0 +1,22 @@
+[
+	{
+		"id" : 1,
+		"continent_name" : "Amérique"
+	},
+	{
+		"id" : 2,
+		"continent_name" : "Europe"
+	},
+	{
+		"id" : 3,
+		"continent_name" : "Asie"
+	},
+	{
+		"id" : 4,
+		"continent_name" : "Océanie"
+	},
+	{
+		"id" : 5,
+		"continent_name" : "Afrique"
+	}
+]

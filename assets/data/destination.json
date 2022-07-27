@@ -1,0 +1,58 @@
+[
+	{
+		"id" : 25,
+		"picture" : "photo3cyclistes.jpg",
+		"title" : "Kebumen, au coeur de l Indonésie",
+		"country" : "Indonésie",
+		"description" : " ",
+		"continent_name" : "Asie"
+	},
+	{
+		"id" : 26,
+		"picture" : "photoSanFransisco.jpg",
+		"title" : "La baie de San Francisco",
+		"country" : "Amérique",
+		"description" : "Découvrez son pont rouge flamboyant, ses tramways, une baie étincelante et des rues bordées d'élégantes maisons victoriennes",
+		"continent_name" : "Amérique"
+	},
+	{
+		"id" : 27,
+		"picture" : "photoRio.jpg",
+		"title" : "Rio de Janeiro, la perle du Brésil",
+		"country" : "Amerique",
+		"description" : "Découvrez les plages de Copacabana et d Ipanema, la statue du Christ Rédempteur de 38 mètres de haut située au sommet du Corcovado...",
+		"continent_name" : "Amérique"
+	},
+	{
+		"id" : 28,
+		"picture" : "photoKenya.jpg",
+		"title" : "Le parc national d Amboseli, au Kenya",
+		"country" : "Afrique",
+		"description" : "A 220km et 240 de Nairobi, le parc Amboseli est à mi-chemin des deux plus grandes villes du Keny",
+		"continent_name" : "Afrique"
+	},
+	{
+		"id" : 29,
+		"picture" : "photoFuji.jpg",
+		"title" : "Fujiyoshida, au pied du Mont Fuji",
+		"country" : "Asie",
+		"description" : "Fujiyosha est une ville située dans la préfecture de Yamanshi, dans la région des cinq Lacs du Mont FUji au centre de l île de la Honshu au Japon",
+		"continent_name" : "Asie"
+	},
+	{
+		"id" : 30,
+		"picture" : "photoPrague.jpg",
+		"title" : "Prague, visite en amoureux ou en famille",
+		"country" : "Europe",
+		"description" : "Une des plus belles capitales d Europe à (re)découvrir !",
+		"continent_name" : "Europe"
+	},
+	{
+		"id" : 31,
+		"picture" : "photoLondre.jpg",
+		"title" : " Week-end à Londres",
+		"country" : "Europe",
+		"description" : "Passer un week-end à Londres est une expérience inoubliable",
+		"continent_name" : "Europe"
+	}
+]
