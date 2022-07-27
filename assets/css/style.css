@@ -37,6 +37,10 @@ body {
   height: 18.75rem;
   width: 36.375em;
 }
+.city {
+    height: 9.688rem;
+    width: 17.25rem;
+  }
 .SanFrancisco {
   height: 9.688rem;
   width: 17.25rem;
@@ -65,6 +69,8 @@ body {
   height: 7rem;
   width: 7rem;
 }
+
+
 
 footer {
   background-color: black;
