@@ -34,38 +34,26 @@ $arrayDestination = json_decode($json, true);
 
 
   </div>
-  <div class="container">
+  <div class="box">
     <?php
     foreach ($arrayDestination as $key => $value) {
       if ($key == 0) { ?>
-        <div class="test kebumen">
-          <img class="boucle" src="assets/img/<?= $value['picture'] ?>">
-
-          <div class="card-title">
-            <?= $value['title']  ?>
-          </div>
-          <div class="card-body">
-            <?= $value['description'] ?>
-          </div>
-          <p>
-            <?= $value['country']  ?>
-          </p>
+        <div class="card2">
+          <img src="assets/img/<?= $value['picture'] ?>" class="cyclistes" alt="3cyclistes" />
+          <p><?= $value['title'] ?></p>
+          <p> <?= $value['country'] ?></p>
         </div>
       <?php } else { ?>
 
 
-        <div class="test">
-          <img class="Gboucle" src="assets/img/<?= $value['picture'] ?>">
+        <div class="card">
+          <img src="assets/img/<?= $value['picture'] ?>" class="city" alt="<?= $value['title'] ?>" />
 
-          <div class="card-title">
-            <?= $value['title']  ?>
-          </div>
-          <div class="card-body">
-            <?= $value['description'] ?>
-          </div>
+          <p><?= $value['title'] ?></p>
           <p>
-            <?= $value['country']  ?>
+            <?= $value['description'] ?>
           </p>
+          <p><?= $value['country'] ?></p>
         </div>
 
 
@@ -73,6 +61,9 @@ $arrayDestination = json_decode($json, true);
     <?php }
     } ?>
   </div>
+
+  <?php include 'footer.php' ?>
+
 </body>
 
 </html>
