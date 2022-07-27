@@ -38,9 +38,9 @@ body {
   width: 36.375em;
 }
 .city {
-    height: 9.688rem;
-    width: 17.25rem;
-  }
+  height: 9.688rem;
+  width: 17.25rem;
+}
 .SanFrancisco {
   height: 9.688rem;
   width: 17.25rem;
@@ -70,8 +70,6 @@ body {
   width: 7rem;
 }
 
-
-
 footer {
   background-color: black;
   color: white;
@@ -80,6 +78,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-size: 0.75rem;
   align-items: center;
+  margin-top: 5rem;
 }
 .footer {
   display: flex;
@@ -164,4 +163,7 @@ ul {
 .description {
   font-size: 0.875rem;
   padding: 0.5rem;
+}
+.hoverfooter:hover {
+  color: #ff6161;
 }
