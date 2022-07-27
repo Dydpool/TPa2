@@ -1,36 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@400;700&display=swap");
 /* header */
+body {
+  background: color #f0f0f0;
+}
 .header {
   background-color: black;
 }
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.card2 {
+  height: 26.25rem;
+  width: 36.375rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 5px #9999991e;
+  margin: 1.5rem;
+  justify-content: space-between;
+}
+.card {
+  height: 26.25rem;
+  width: 17.25rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 5px #9999991e;
+  margin: 1.5rem;
+  justify-content: space-between;
+}
 
 .cyclistes {
-  height: 17rem;
-  width: 32rem;
+  height: 18.75rem;
+  width: 36.375em;
 }
 .SanFrancisco {
-  height: 9rem;
-  width: 16rem;
+  height: 9.688rem;
+  width: 17.25rem;
 }
 .Rio {
-  height: 9rem;
-  width: 16rem;
+  height: 9.688rem;
+  width: 17.25rem;
 }
 .Kenya {
-  height: 9rem;
-  width: 16rem;
+  height: 9.688rem;
+  width: 17.25rem;
 }
 .Fujiyoshida {
-  height: 9rem;
-  width: 16rem;
+  height: 9.688rem;
+  width: 17.25rem;
 }
 .Prague {
-  height: 9rem;
-  width: 16rem;
+  height: 9.688rem;
+  width: 17.25rem;
 }
 .Londres {
-  height: 9rem;
-  width: 16rem;
+  height: 9.688rem;
+  width: 17.25rem;
 }
 .logotravel {
   height: 7rem;
