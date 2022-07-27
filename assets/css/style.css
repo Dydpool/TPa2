@@ -146,6 +146,7 @@ ul {
   font-size: 1.875rem;
   font-weight: bold;
   padding: 0.5rem;
+  margin: 0em;
 }
 .pays {
   font-size: 0.875rem;
@@ -153,6 +154,7 @@ ul {
   color: #999999;
   text-transform: uppercase;
   padding: 0.5rem;
+  justify-self: center;
 }
 .description {
   font-size: 0.875rem;
