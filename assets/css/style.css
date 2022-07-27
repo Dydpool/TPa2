@@ -118,3 +118,24 @@ ul {
   display: flex;
   padding-bottom: 2rem;
 }
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.title2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.pays {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #999999;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+.description {
+  font-size: 0.875rem;
+  padding: 0.5rem;
+}
